@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DAVx5 (at.bitfire.davdroid) battery optimization exemptions -->
+<!-- Allows DAVx5 to sync contacts, calendars, and tasks in background -->
+<config>
+    <!-- Allow DAVx5 to run during power save mode for sync operations -->
+    <allow-in-power-save package="at.bitfire.davdroid" />
+
+    <!-- Allow DAVx5 to use data during data usage restrictions -->
+    <allow-in-data-usage-save package="at.bitfire.davdroid" />
+
+    <!-- Allow DAVx5 unrestricted location access for sync operations -->
+    <allow-unthrottled-location package="at.bitfire.davdroid" />
+</config>
