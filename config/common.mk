@@ -270,9 +270,9 @@ CUSTOM_LOCALES += \
     fur_IT
 
 # LMOFreeform 
-# PRODUCT_PACKAGES += \
-    # LMOFreeform \
-    # LMOFreeformSidebar
+ PRODUCT_PACKAGES += \
+     LMOFreeform \
+     LMOFreeformSidebar
 
 
 
