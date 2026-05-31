@@ -74,5 +74,21 @@
     <bool name="def_vibrate_when_ringing">false</bool>
 
     <!-- Default hidden apps list (comma-separated package names) -->
+    <!-- Default hidden apps list (comma-separated package names) -->
     <string name="def_hide_applist" translatable="false">com.asdoi.quicktiles,com.truemlgpro.wifiinfo,com.fibelatti.photowidget,com.drnoob.datamonitor,dualwall,com.android.webview,com.bitmavrik.lumolight,org.breezyweather,com.android.documentsui,com.kin.athena,com.devrinth.launchpad,com.kaleedtc.privacium,com.shezik.drawanywhere,com.stario.launcher,image.toolbox,native.alpha,nethical.digipaws,nethical.locklock,com.android.messaging,com.android.webview_shell,org.chromium.webview_shell,com.cylonid.nativealpha,com.demizo.daily_you,ru.tech.imageresizershrinker,com.sourajitk.ambient.ambient_music,com.sourajitk.ambient_music,com.micoyc.speakthat,com.google.android.gms,app.revanced.android.gms,com.reecedunn.espeak,at.bitfire.davdroid,network.loki.messenger,org.lineage.audiofx,org.lineageos.audiofx,com.aurora.store</string>
+
+    <!-- Dynamic Island defaults (disabled until user enables or auto-cutout applies) -->
+    <integer name="def_status_bar_dynamic_island">0</integer>
+    <integer name="def_status_bar_dynamic_island_auto_cutout">0</integer>
+    <integer name="def_status_bar_dynamic_island_plugin_notification">1</integer>
+    <integer name="def_status_bar_dynamic_island_plugin_call">1</integer>
+    <integer name="def_status_bar_dynamic_island_plugin_media">1</integer>
+    <integer name="def_status_bar_dynamic_island_plugin_battery">1</integer>
+    <integer name="def_status_bar_dynamic_island_position_x">0</integer>
+    <integer name="def_status_bar_dynamic_island_position_y">0</integer>
+    <integer name="def_status_bar_dynamic_island_width">120</integer>
+    <integer name="def_status_bar_dynamic_island_height">84</integer>
+    <integer name="def_status_bar_dynamic_island_corner_radius">28</integer>
+    <integer name="def_status_bar_dynamic_island_theme">0</integer>
+    <string name="def_status_bar_dynamic_island_enabled_apps" translatable="false"></string>
 </resources>
