@@ -78,7 +78,23 @@ PRODUCT_PACKAGES += \
     IconShapeSquircleOverlay \
     IconShapeTaperedRectOverlay \
     IconShapeTeardropOverlay \
-    IconShapeVesselOverlay
+    IconShapeVesselOverlay \
+    IconPackIconifyIpas1AndroidOverlay \
+    IconPackIconifyIpas2AndroidOverlay \
+    IconPackIconifyIpas3AndroidOverlay \
+    IconPackIconifyIpas4AndroidOverlay \
+    IconPackIconifyIpas5AndroidOverlay \
+    IconPackIconifyIpas6AndroidOverlay \
+    IconPackIconifyIpas7AndroidOverlay \
+    IconPackIconifyIpas8AndroidOverlay \
+    IconPackIconifyIpas9AndroidOverlay \
+    IconPackIconifyIpas10AndroidOverlay \
+    IconPackIconifyIpas11AndroidOverlay \
+    IconPackIconifyIpas12AndroidOverlay \
+    IconPackIconifyIpas13AndroidOverlay \
+    IconPackIconifyIpas14AndroidOverlay \
+    IconShapeIconifySisOverlay
+
 
 # Legal
 PRODUCT_SYSTEM_PROPERTIES += \
