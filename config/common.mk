@@ -19,7 +19,7 @@ $(call inherit-product, vendor/lineage/SystemDefaults/optimisation.mk)
 $(call inherit-product, vendor/microg/microg.mk)
 $(call inherit-product,  vendor/ArouraStore/config.mk)
 $(call inherit-product-if-exists, vendor/bmobile/system/config.mk)
-$(call inherit-product-if-exists, vendor/bmobile/apps/config.mk)
+$(call inherit-product-if-exists, vendor/bmobile/applications/config.mk)
 $(call inherit-product-if-exists, vendor/bmobile/prebuilts/config.mk)
 $(call inherit-product-if-exists, vendor/bmobile/software/config.mk)
 

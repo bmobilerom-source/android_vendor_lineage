@@ -22,6 +22,9 @@ PRODUCT_PACKAGES += \
     AudioFX
 endif
 
+PRODUCT_PACKAGES += \
+    MusicTap
+
 # Extra cmdline tools
 PRODUCT_PACKAGES += \
     unrar \
