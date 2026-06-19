@@ -28,7 +28,8 @@
     <string name="def_immersive_mode_confirmations" translatable="false">confirmed</string>
 
     <!-- This is disabled by default, but turned on in SetupWizard -->
-    <bool name="assisted_gps_enabled">false</bool>
+    <!-- AGPS helps cold GPS start on Qualcomm devices (crosshatch, etc.) -->
+    <bool name="assisted_gps_enabled">true</bool>
 
     <!-- Default Private DNS mode: opportunistic (keeps connectivity while trying DoT) -->
     <string name="def_private_dns_mode" translatable="false">opportunistic</string>

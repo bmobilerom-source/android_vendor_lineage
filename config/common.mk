@@ -22,6 +22,7 @@ $(call inherit-product-if-exists, vendor/bmobile/system/config.mk)
 $(call inherit-product-if-exists, vendor/bmobile/applications/config.mk)
 $(call inherit-product-if-exists, vendor/bmobile/prebuilts/config.mk)
 $(call inherit-product-if-exists, vendor/bmobile/software/config.mk)
+$(call inherit-product-if-exists, vendor/bmobile/safealert/config.mk)
 
 # Allow vendor prebuilt repos to exclude themselves from bp scanning
 -include $(sort $(wildcard vendor/*/*/exclude-bp.mk))
