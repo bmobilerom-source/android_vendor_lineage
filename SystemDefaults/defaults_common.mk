@@ -29,10 +29,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.madvise.odexfile.size=31457280\
     dalvik.vm.madvise.artfile.size=0
 
-# Use the low ram boot profile for ART.
-TARGET_SYSTEM_PROP += \
-    vendor/lineage/SystemDefaults/defaults_common.prop
-
+# DO NOT feed defaults_common.prop via TARGET_SYSTEM_PROP.
+# That file is a Make fragment; as TARGET_SYSTEM_PROP it still leaks bare
+# key=value lines into system/build.prop (notably dalvik.vm.heapgrowthlimit=128m
+# / heapsize=256m) which OOM system_server and stop boot at the Google logo.
+# Do not "include" it as Make either — that would apply those heaps for real.
 
 # Applications for product
 # Wallpapers

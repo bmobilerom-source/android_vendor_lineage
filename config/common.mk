@@ -18,6 +18,13 @@ $(call inherit-product, vendor/lineage/SystemDefaults/optimisation.mk)
 # MicroG services for Google Play Services alternative
 $(call inherit-product, vendor/microg/microg.mk)
 $(call inherit-product,  vendor/ArouraStore/config.mk)
+
+# Branding Studio overlays — BEFORE vendor/bmobile.
+# Soong auto-RRO reverses PRODUCT_PACKAGE_OVERLAYS for aapt2: earlier entries win
+# over later ones inside the merged product RRO. Customer branding must precede
+# vendor/bmobile or BMobile strings (SetupWizard os_name, logo conflicts, etc.) stick.
+$(call inherit-product-if-exists, vendor/branding/overlays-last.mk)
+
 $(call inherit-product-if-exists, vendor/bmobile/system/config.mk)
 $(call inherit-product-if-exists, vendor/bmobile/applications/config.mk)
 $(call inherit-product-if-exists, vendor/bmobile/prebuilts/config.mk)
