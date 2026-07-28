@@ -7,4 +7,10 @@
 
     <string name="default_root_uri" translatable="false">content://com.android.externalstorage.documents/root/primary</string>
 
+    <bool name="show_search_bar">true</bool>
+    <bool name="config_files_home_dashboard">true</bool>
+
+    <dimen name="grid_item_radius">20dp</dimen>
+    <dimen name="search_chip_radius">28dp</dimen>
+
 </resources>
