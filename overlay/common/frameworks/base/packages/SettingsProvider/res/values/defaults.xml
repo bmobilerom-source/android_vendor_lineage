@@ -96,6 +96,10 @@
     <!-- Default lockscreen clock: Willow (index 11) -->
     <integer name="def_clock_style">11</integer>
 
+    <!-- Three-button navigation by default (not gesture / hidden navbar) -->
+    <bool name="def_hide_navbar_enable">false</bool>
+    <integer name="def_navigation_mode">0</integer>
+
     <!-- Lockscreen weather display defaults -->
     <bool name="def_lockscreen_weather_enabled">true</bool>
     <bool name="def_lockscreen_weather_location">true</bool>

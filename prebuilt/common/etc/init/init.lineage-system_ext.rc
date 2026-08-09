@@ -7,6 +7,11 @@ on property:sys.boot_completed=1
     # to hide Magisk & co.
     chmod 440 /proc/net/unix
 
+    # Force three-button navigation after every boot (Game Zone / gaming UX default).
+    exec - system system -- /system/bin/settings put secure navigation_mode 0
+    exec - system system -- /system/bin/settings put system hide_navbar_enable 0
+    exec - system system -- /system/bin/cmd overlay enable-exclusive --user 0 --category com.android.internal.systemui.navbar.threebutton
+
 # bugreport is triggered by holding down volume down, volume up and power
 service lineage-bugreport /system/bin/dumpstate -d -p -z
     socket dumpstate stream 0660 shell log
