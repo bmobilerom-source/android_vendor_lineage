@@ -92,6 +92,11 @@
     <integer name="def_status_bar_dynamic_island_corner_radius">28</integer>
     <integer name="def_status_bar_dynamic_island_theme">0</integer>
     <string name="def_status_bar_dynamic_island_enabled_apps" translatable="false"></string>
+    <integer name="def_status_bar_bubble_notice">0</integer>
+    <integer name="def_status_bar_bubble_notice_suppress_hun">1</integer>
+    <integer name="def_status_bar_bubble_notice_take_over">0</integer>
+    <integer name="def_status_bar_bubble_notice_hide_on_keyguard">1</integer>
+    <string name="def_status_bar_bubble_notice_enabled_apps" translatable="false"></string>
 
     <!-- Default lockscreen clock: Willow (index 11) -->
     <integer name="def_clock_style">11</integer>
